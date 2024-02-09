@@ -6,7 +6,7 @@ import MainHeader from "@/components/ui/header";
 import { cn } from "@/lib/utils";
 import { ReactNode } from "react";
 
-export const fontSans = FontSans({
+const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
 });
